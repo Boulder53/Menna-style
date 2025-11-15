@@ -273,3 +273,34 @@ h1 {
     transition: transform 0.3s;
      color: #ff0050;
   }
+
+/* ====== تحسين عرض الموقع على الموبايل ====== */
+@media (max-width: 600px) {
+
+    /* تكبير صور المعارض الرئيسية */
+    .gallery-container {
+        grid-template-columns: repeat(2, 1fr) !important;
+        gap: 15px;
+    }
+
+    .gallery-item {
+        height: 170px !important; /* تكبير الارتفاع */
+    }
+
+    /* تكبير الصور داخل المعرض نفسه (العشر صور) */
+    .modal-images {
+        grid-template-columns: repeat(2, 1fr) !important;
+    }
+
+    .modal-images img {
+        height: 150px !important;
+    }
+
+    /* تصغير الـ modal عند فتح صورة مكبرة */
+    .full-image img {
+        width: 90%;
+        max-height: 70vh;
+    }
+
+}
+
