@@ -1,4 +1,4 @@
-  *
+     *
 /* ---------------------------------------------------
    🎨  ألوان الخلفية + دخول ناعم للصفحة
 ----------------------------------------------------*/
@@ -43,8 +43,8 @@ h1 {
     overflow: hidden;
     border-radius: 18px;  /* كما هو */
     cursor: pointer;
-    width: 270px;         /* مربع */
-    height: 270px;        /* مربع */
+    width: 700px;         /* مربع */
+    height: 700px;        /* مربع */
     background: #ddd;
     transition: .4s;
     box-shadow: 0 8px 20px rgba(0,0,0,0.15);
@@ -139,7 +139,7 @@ h1 {
 ----------------------------------------------------*/
 .inside-gallery {
     display: none;
-    display: grid;
+    display: none;
     grid-template-columns: repeat(2, 1fr);  /* عمودين */
     gap: 20px;
     padding: 20px;
@@ -147,7 +147,7 @@ h1 {
 }
 
 .inside-gallery img {
-    width: 100%;
+    width: 500px;
     height: 220px; /* تكبير حجم الصور */
     object-fit: cover;
     cursor: pointer;
@@ -234,5 +234,4 @@ h1 {
 .line2 i:hover { transform: scale(1.2); transition: transform 0.3s; color: #25d366; }
 .line3 i:hover { transform: scale(1.2); transition: transform 0.3s; color: #385898; }
 .line4 i:hover { transform: scale(1.2); transition: transform 0.3s; color: #ff0050; }
-
 
